@@ -13,7 +13,6 @@ while True:
     try:
         guess = int(input("Please Enter a number from 1 to 100 only: "))
         xrange = value - guess
-        print(value)
 
         if value == guess:
             print('CONGRATULATIONS YOU HAVE GUESS THE NUMBER CORRECTLY')
